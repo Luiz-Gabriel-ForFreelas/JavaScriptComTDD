@@ -23,7 +23,7 @@ describe('Test block', () => {
         expect(array).toEqual(Array("livro1", "livro2", "Eu penso"))
     })
 
-    it('Library class / FindedBooks function / test', () => {
+    it('Library class / FindByAuthor function / test', () => {
         const book1 = new Book("Livro1", "Autor1", "Ano2")
         const book2 = new Book("Livro2", "Autor2", "Ano2")
         const library = new Library([book1, book2])
